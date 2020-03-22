@@ -11,12 +11,8 @@ body {
 
 /*Header Style Start*/
 header {
-    overflow: hidden;
     padding: 20px;
     background-color: #2a607c;    
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
 }
 /*Logo Style*/
 header h1 {
@@ -39,28 +35,24 @@ header nav {
 
 header nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
 
 header nav ul li {
     display: inline-block;
 }
 header nav ul li a {
-    display: block;
     padding-left: 25px;
     font-size: 20px;
 }
 
 /*Hero Style Start*/
 .hero {
-    background-image: url("../images/digital-marketing-meeting.jpg");
     height: 800px;
     width: 100%;
-    background-size: cover;/*need to fix image from cropping*/
-    background-position: center;
     margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 /*Hero Style End*/
 p {
