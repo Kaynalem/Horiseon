@@ -39,15 +39,21 @@ header nav {
 
 header nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 header nav ul li {
     display: inline-block;
 }
 header nav ul li a {
-    margin-left: 25px;
+    display: block;
+    padding-left: 25px;
     font-size: 20px;
 }
+
+
 /*Hero Style Start*/
 .hero {
     background-image: url("../images/digital-marketing-meeting.jpg");
