@@ -4,17 +4,31 @@
     margin: 0;
 }
 
+/*
+========================================
+Custom styles
+========================================
+*/
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
-/*Header Style Start*/
+/*
+========================================
+Header style
+========================================
+*/
 header {
     padding: 20px;
     background-color: #2a607c;    
 }
-/*Logo Style*/
+
+/*
+========================================
+Logo style
+========================================
+*/
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -27,7 +41,12 @@ header a {
 header h1 .seo {
     color: #d9dcd6;
 }
-/*Navigation Style*/
+
+/*
+========================================
+Navigation style
+========================================
+*/
 header nav {
     margin: 15px 20px;
     float: right;
@@ -45,7 +64,11 @@ header nav ul li a {
     font-size: 20px;
 }
 
-/*Hero Style*/
+/*
+========================================
+Hero style
+========================================
+*/
 .hero {
     height: 800px;
     width: 100%;
@@ -55,12 +78,21 @@ header nav ul li a {
     background-position: center;
 }
 
-/*Info Section Style*/
+/*
+========================================
+Info Section style
+========================================
+*/
 p {
     font-size: 16px;
     margin: 0 auto;
 }
-/*Services Style Start*/
+
+/*
+========================================
+Services  Style
+========================================
+*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -93,7 +125,12 @@ p {
     font-size: 36px;
 }
 
-/*Benefits Style Start*/
+/*
+========================================
+Benefits Style
+========================================
+*/
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,7 +157,11 @@ p {
     max-width: 150px;
 }
 
-/*Footer Style Start*/
+/*
+========================================
+Footer Style
+========================================
+*/
 footer {
     padding: 30px;
     clear: both;
