@@ -45,7 +45,7 @@ header nav ul li a {
     font-size: 20px;
 }
 
-/*Hero Style Start*/
+/*Hero Style*/
 .hero {
     height: 800px;
     width: 100%;
@@ -54,11 +54,21 @@ header nav ul li a {
     background-size: cover;
     background-position: center;
 }
-/*Hero Style End*/
+
+/*Info Section Style*/
 p {
     font-size: 16px;
 }
 /*Services Style Start*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
 .content {
     width: 75%;
     margin-left: 20px;
@@ -82,15 +92,6 @@ p {
     font-size: 36px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 /*Benefits Style Start*/
 .benefits {
     margin-right: 20px;
